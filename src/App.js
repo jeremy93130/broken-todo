@@ -16,7 +16,7 @@ class App extends Component {
     }
   }
 
-  handleAddTodo() {
+  handleAddTodo(task) {
     // Fixer l'ajout d'une tâche
   }
 
