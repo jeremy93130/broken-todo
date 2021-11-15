@@ -22,11 +22,11 @@ class App extends Component {
 
   handleDelete(id) {
     // Fixer la suppression d'une tâche
-  };
+  }
 
   toggleCheck(id) {
     // Fixer le toggle de la checkbox d'une tâche (au click, cocher ou décocher la tache)
-  };
+  }
 
   handleKeyUp(e, id) {
     if (e.keyCode === 13) {
