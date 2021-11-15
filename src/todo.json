@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "label": "Fixer l'affichage des tâches",
+    "checked": false
+  },
+  {
+    "id": 1,
+    "label": "Fixer le layout, les checkboxes devraient s'afficher en colonnes",
+    "checked": false
+  },
+  {
+    "id": 2,
+    "label": "Fixer l'ajout d'une tâche",
+    "checked": false
+  },
+  {
+    "id": 3,
+    "label": "Fixer le toggle d'une tâche",
+    "checked": false
+  },
+  {
+    "id": 4,
+    "label": "Fixer la suppression d'une tâche",
+    "checked": false
+  },
+  {
+    "id": 5,
+    "label": "Fixer le compteur de tâches complétées",
+    "checked": false
+  }
+]

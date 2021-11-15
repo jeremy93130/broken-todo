@@ -1,25 +1,62 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './App.css'
+import todosTemplate from './todo.json'
+
+import TodoForm from './components/TodoForm'
+import TodoList from './components/TodoList'
+import TodoResults from './components/TodoResults'
+
+class App extends Component {
+  constructor() {
+    super()
+
+    this.state = {
+      todos: []
+    }
+  }
+
+  handleAddTodo() {
+    // Fixer l'ajout d'une tâche
+  }
+
+  handleDelete(id) {
+    // Fixer la suppression d'une tâche
+  };
+
+  toggleCheck(id) {
+    // Fixer le toggle d'une tâche
+  };
+
+  handleKeyUp(e, id) {
+    if (e.keyCode === 13) {
+      this.toggleCheck(id)
+    }
+  }
+
+  calculateChecked() {
+    // Fixer le compteur de tâches complétées
+  }
+
+  render() {
+    return (
+      <div className="root">
+        <TodoList
+          todos={this.state.todos}
+          handleDelete={this.handleDelete}
+          toggleCheck={this.toggleCheck}
+          handleKeyUp={this.handleKeyUp}
+
+        />
+        <TodoResults
+          calculateChecked={this.calculateChecked}
+        />
+        <TodoForm
+          handleAddTodo={this.handleAddTodo}
+        />
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
