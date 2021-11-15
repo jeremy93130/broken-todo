@@ -15,7 +15,7 @@ class Checkbox extends Component {
           onClick={onClick}
           onKeyUp={onKeyUp}
         >
-          <input tabIndex="-1" type="checkbox" checked={checked} onChange={onClick} />
+          <input tabIndex="-1" type="checkbox" checked={checked} />
           <span className={checked ? 'checkbox-checked' : ''}>{label}</span>
         </div>
         <button type="button" className="checkbox-delete" onClick={onDelete}>
