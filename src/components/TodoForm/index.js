@@ -19,8 +19,16 @@ class TodoForm extends Component {
 
   render() {
     return (
-      <div>
-        
+      <div className="todo-form">
+        <input
+          placeholder="Enter new task"
+          value={this.state.task}
+          onChange={(e) => this.setState({ task: e.target.value} )}
+          onKeyUp={this.handleKeyUp}
+        />
+        <button type="button" onClick={this.handleAddTodo}>
+          Add task
+        </button>
       </div>
     )
   }
