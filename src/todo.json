@@ -16,7 +16,7 @@
   },
   {
     "id": 3,
-    "label": "Fixer le toggle d'une tâche",
+    "label": "Fixer le toggle de la checkbox d'une tâche (au click, cocher ou décocher la tache)",
     "checked": false
   },
   {

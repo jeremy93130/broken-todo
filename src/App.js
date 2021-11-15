@@ -25,7 +25,7 @@ class App extends Component {
   };
 
   toggleCheck(id) {
-    // Fixer le toggle d'une tâche
+    // Fixer le toggle de la checkbox d'une tâche (au click, cocher ou décocher la tache)
   };
 
   handleKeyUp(e, id) {
