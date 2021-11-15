@@ -18,6 +18,8 @@ class TodoForm extends Component {
   }
 
   render() {
+    const { handleAddTodo } = this.props
+    
     return (
       <div className="todo-form">
         <input
@@ -26,7 +28,7 @@ class TodoForm extends Component {
           onChange={(e) => this.setState({ task: e.target.value} )}
           onKeyUp={this.handleKeyUp}
         />
-        <button type="button" onClick={this.handleAddTodo}>
+        <button type="button" onClick={handleAddTodo}>
           Add task
         </button>
       </div>
