@@ -1,6 +1,6 @@
 # Test technique
 
-Ce repo est une app react qui est cassée. Le but de ce test technique est de la réparer afin d'avoir un résultat comme ci-dessous:
+Ce repo est une app react qui est cassée. Le but de ce test technique est de la réparer afin d'avoir un résultat comme le présente la version fonctionnelle:
 
 Version fonctionnelle: https://broken-todo.netlify.app/
 
