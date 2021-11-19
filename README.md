@@ -2,7 +2,7 @@
 
 Ce repo est une app react qui est cassée. Le but de ce test technique est de la réparer afin d'avoir un résultat comme ci-dessous:
 
-![Alt Text](https://miro.medium.com/max/1200/0*GMU8rXe6NYk8bdp9.gif)
+Version fonctionnelle: https://broken-todo.netlify.app/
 
 1. #### Forker et cloner le repo localement, n'oubliez pas `npm install`
 
